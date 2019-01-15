@@ -331,6 +331,10 @@ footer p {
     display: none;
   }
 
+  button {
+      padding: 1.5% 0 4.5% 0;
+  }
+
   .header-block {
     justify-content: center;
   }
@@ -351,22 +355,22 @@ footer p {
 
   /* Mobile view at 500px goes here; the page is widened with zero body margin */
   @media (max-width: 500px) {
-    body {
-      padding: 0;
+    .home-page-container {
+        padding: 0;
     }
 
     /* Changing nav flex-direction to column */
+    
     nav {
-      margin-top: 20px;
+      margin-top: 6%;
       flex-direction: column;
     }
 
     nav a {
-      height: 60px;
       border-top: 1px solid darkgray;
-      padding: 22px 5px 5px 5px;
       text-align: center;
       font-weight: bold;
+      padding: 5%;
     }
 
     nav a:last-child {
@@ -374,36 +378,36 @@ footer p {
     }
 
     .header-block {
-      padding: 35px 0 0 0;
+      padding: 5% 0 0 0;
     }
 
     button {
-      width: 160px;
-      margin-top: 5px;
-      height: 35px;
+      width: 55%;
+      margin-top: 3%;
+      padding: 3% 0 8% 0;
     }
 
     /* Changing content flex-direction to column */
     .content {
-      margin: 70px 10px 0 10px;
+      margin: 13% 2% 0 2%;
       flex-direction: column;
     }
 
     .content-block {
       width: 100%;
-      margin: 18px 0;
+      padding: 2% 0;
     }
 
     .content-block:first-child {
-      margin-top: 50px;
+      margin-top: 8%;
     }
 
     .middle-img {
-      margin: 20px 0 15px 0;
+      padding: 5% 0;
     }
 
     .contact-info {
-      margin-top: 15px;
+      padding: 5% 2% 0 2%;
     }
 
     /* Services page */
@@ -440,7 +444,8 @@ footer p {
     }
 
     footer p {
-      font-size: 11pt;
+      font-size: 9pt;
+      margin: 3% 0;
     }
   }
 }
