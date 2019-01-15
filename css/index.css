@@ -159,6 +159,7 @@ html {
     max-width: 880px;
     margin: 0 auto;
     background: orange;
+    padding: 0 1%;
 }
 
 header {
@@ -217,7 +218,7 @@ button {
 .content-block {
   width: 50%;
   margin: 1.5% 0;
-  padding: 2.5% 1% 2.5% 0;
+  padding: 2.5% 1.5% 2.5% 0;
 }
 
 .middle-img {
@@ -246,9 +247,7 @@ p {
   color: black;
 }
 
-footer p {
-    padding-bottom: 1.5%;
-}
+/* services page starts here */
 
 .services-header-img {
   width: 100%;
@@ -310,9 +309,9 @@ li {
 }
 
 footer p {
-  font-size: 8pt;
-  text-align: center;
-  margin: 30px 0 50px 0;
+    font-size: 8pt;
+    text-align: center;
+    padding: 2% 0;
 }
 
 /* Tablet view at 800px goes here; the page is widened with narrower body margin */
