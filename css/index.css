@@ -150,7 +150,6 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox checking again*/
-
 html {
     font-size: 62.5%
 }
@@ -158,7 +157,6 @@ html {
 .home-page-container {
     max-width: 880px;
     margin: 0 auto;
-    background: orange;
     padding: 0 1%;
 }
 
@@ -248,7 +246,6 @@ p {
 }
 
 /* services page starts here */
-
 .services-header-img {
   width: 100%;
   margin-top: 30px;
@@ -308,6 +305,7 @@ li {
   padding: 0 10px 10px 10px;
 }
 
+/* Footer for all pages */
 footer p {
     font-size: 8pt;
     text-align: center;
@@ -323,8 +321,10 @@ footer p {
   /* Reordering of navigation children will carry through to mobile view */
   nav {
     order: 2;
-    margin-top: 30px;
+    margin-top: 5%;
     width: 100%;
+    justify-content: space-between;
+    padding: 0 1%;
   }
 
   .header-image {
