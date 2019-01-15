@@ -151,13 +151,13 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox checking again*/
 html {
-    font-size: 62.5%
+  font-size: 62.5%;
 }
 
 .home-page-container {
-    max-width: 880px;
-    margin: 0 auto;
-    padding: 0 1%;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 1%;
 }
 
 header {
@@ -230,8 +230,8 @@ button {
 }
 
 h2 {
-    font-size: 1.4rem;
-  }
+  font-size: 1.4rem;
+}
 
 p {
   line-height: 1.4;
@@ -248,8 +248,8 @@ p {
 }
 
 .contact-info {
-    font-size: 1.4rem;
-  }
+  font-size: 1.4rem;
+}
 
 .contact-info a {
   text-decoration: none;
@@ -318,9 +318,9 @@ li {
 
 /* Footer for all pages */
 footer p {
-    font-size: 1.3rem;
-    text-align: center;
-    padding: 2% 0;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 2% 0;
 }
 
 /* Tablet view at 800px goes here; the page is widened with narrower body margin */
@@ -343,7 +343,7 @@ footer p {
   }
 
   button {
-      padding: 1.5% 0 4.5% 0;
+    padding: 1.5% 0 4.5% 0;
   }
 
   .header-block {
@@ -367,11 +367,11 @@ footer p {
   /* Mobile view at 500px goes here; the page is widened with zero body margin */
   @media (max-width: 500px) {
     .home-page-container {
-        padding: 0;
+      padding: 0;
     }
 
     /* Changing nav flex-direction to column */
-    
+
     nav {
       margin-top: 6%;
       flex-direction: column;
