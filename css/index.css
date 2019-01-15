@@ -177,6 +177,7 @@ nav {
 nav a {
   text-decoration: none;
   color: grey;
+  width: 18%;
 }
 
 .header-block {
@@ -367,6 +368,7 @@ footer p {
     }
 
     nav a {
+      width: 100%;
       border-top: 1px solid darkgray;
       text-align: center;
       font-weight: bold;
