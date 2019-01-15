@@ -431,27 +431,30 @@ footer p {
     }
 
     /* Services page */
+    .services-intro-text {
+      padding: 5% 1.5%;
+    }
+
     .service-descriptions {
       flex-direction: column;
     }
 
     .service-items {
-      padding: 50px;
-      width: 95%;
+      width: 98%;
       margin: 0 auto;
-      margin-bottom: 15px;
+      margin-bottom: 5%;
     }
 
     .service-items:last-child {
-      margin-bottom: 50px;
+      margin-bottom: 8%;
     }
 
     .services-info-img {
       display: none;
     }
-
+/* To be completed */
     .conclusion {
-      padding-top: 35px;
+      background: orange;
     }
 
     .conclusion-text {
