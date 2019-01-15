@@ -158,11 +158,11 @@ html {
 .home-page-container {
     max-width: 880px;
     margin: 0 auto;
-    padding: 0 8px;
+    background: orange;
 }
 
 header {
-  padding: 20px 0;
+  padding: 4% 0 8% 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -170,7 +170,7 @@ header {
 }
 
 nav {
-  width: 75%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -181,7 +181,6 @@ nav a {
 }
 
 .header-block {
-  padding: 60px 0 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -200,39 +199,33 @@ h1 {
 }
 
 button {
+  margin-top: 2%;
   border: 1px solid black;
-  border-radius: 0;
-  height: 30px;
-  width: 130px;
+  height: 9%;
+  width: 35%;
   font-size: 10pt;
-  padding-top: 2px;
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 6.5%;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-.features,
-.about {
+.content-block {
   width: 50%;
-  margin: 40px 0 30px 0;
-  padding: 10px;
+  margin: 1.5% 0;
+  padding: 2.5% 1% 2.5% 0;
 }
 
 .middle-img {
   width: 100%;
 }
 
-.services,
-.product,
-.vision {
+.bottom-block {
   width: 33.3%;
-  margin: 40px 0 30px 0;
-  padding: 10px;
 }
 
 p {
@@ -240,8 +233,7 @@ p {
 }
 
 .contact-info {
-  margin: 30px 0;
-  padding: 10px;
+  padding: 2.5% 1% 0 0;
   line-height: 2.5;
 }
 
@@ -252,6 +244,10 @@ p {
 .contact-info a {
   text-decoration: none;
   color: black;
+}
+
+footer p {
+    padding-bottom: 1.5%;
 }
 
 .services-header-img {
